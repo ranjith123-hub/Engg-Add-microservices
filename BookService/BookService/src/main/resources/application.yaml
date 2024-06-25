@@ -1,0 +1,15 @@
+server:
+  port: 8182
+
+spring:
+  application:
+    name: BOOK-SERVICE
+  datasource:
+     url: jdbc:postgresql://localhost:5432/microservicess
+     username: postgres
+     password: root
+  jpa:
+    show_sql: true
+    ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
